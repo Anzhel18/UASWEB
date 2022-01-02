@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.menu{
+  display: flex;
+  position: relative;
+}
+
+.menu .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #4b4276;
+  padding: 0px 0px;
+  position: fixed;
+}
+
+.menu .sidebar img{
+  width: 200px;
+  height: 100px;
+}
+
+.menu .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.menu .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.menu .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.menu .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.menu .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.menu .sidebar .sosmed{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.menu .sidebar .sosmed a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.menu .myTable{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.menu .myTable .judul{
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  background: #fff;
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.menu .myTable .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.menu .myTable .info div{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.menu .myTable .info .tanggaldoang{
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+  margin-right: 800px;
+  border-radius: 10px;
+}
+
+.menu .myTable .info .tanggaldoang i{
+  width: 100px;
+  float: right;
+  margin-top: -80px;
+  margin-right: -10px;
+  color: #bdb8d7;
+}
+
+.menu .myTable .info .participant{
+  margin-top: 10px;
+  color: black;
+  position: relative;
+  background-color: white;
+  margin-right: 800px;
+  border-radius: 10px;
+}
+
+.menu .myTable .info .participant p{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.menu .myTable .info .participant i{
+  width: 100px;
+  float: right;
+  margin-top: -60px;
+  margin-right: -10px;
+  color: #bdb8d7;
+}
+    
+.menu .myTable .info .kelashome{
+  margin-top: 10px;
+  color: black;
+  position: relative;
+  background-color: white;
+  margin-right: 800px;
+  border-radius: 10px;
+}
+
+/*.konten dashboard*/
+#tabelhome {
+  border-collapse: collapse;
+  width: 100%;
+  position: absolute;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+    
+#tabelhome th, #tabelhome .tabelhomeheader th {
+  width: 300px;
+}
+
+#tabelhome th, #tabelhome td {
+  text-align: left;
+  padding: 12px;
+  margin-left: 100px;
+}
+
+#tabelhomeheader i{
+    margin-left: 100px;
+}
+#tabelhome tr {
+  border-bottom: 1px solid #ddd;
+}
+    
+#tabelhome tr.tabelhomeheader, #tabelhome tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+/*myTablemateri*/ 
+#myInput {
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+#tabel {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+      
+#tabel th, #tabel td {
+  text-align: left;
+  padding: 12px;
+}
+      
+#tabel tr {
+  border-bottom: 1px solid #ddd;
+}
+    
+#tabel tr.header, #tabel tr:hover {
+  background-color: #f1f1f1;
+}
